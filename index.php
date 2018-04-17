@@ -101,8 +101,6 @@
                 <br /><br />
             </form>
 
-            
-            <!-- Display Search Results -->
             <br/>
             
             <?php
@@ -138,8 +136,6 @@
                 }
                 
                 if (isset($_GET['search-submitted'])) {
-                    // form was submitted 
-                    // pass all the form fields and filters into getMatchItems()
                     $items = getMatchingItems($query, $category, $priceFrom, $priceTo, $ordering, $showImages);
                 }
                 
