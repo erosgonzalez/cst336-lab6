@@ -49,13 +49,13 @@
                 height: 100%;
                 margin: 0;
             }
-            .bg {
-                background-image: url("https://trbbbbb.com/wp-content/uploads/data/2018/1/10/gucci-logo-explained-by-ebaqdesign-PIC-WSW3077380.jpg");
-                height: 100%; 
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
+            /*.bg {*/
+            /*    background-image: url("https://trbbbbb.com/wp-content/uploads/data/2018/1/10/gucci-logo-explained-by-ebaqdesign-PIC-WSW3077380.jpg");*/
+            /*    height: 100%; */
+            /*    background-position: center;*/
+            /*    background-repeat: no-repeat;*/
+            /*    background-size: cover;*/
+            /*}*/
         </style>
     </head>
     <body class = 'bg'>
