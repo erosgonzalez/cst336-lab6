@@ -28,6 +28,8 @@
     include 'functions.php';
     include 'database.php';
     
+    getDatabaseConnection();
+    
     if(isset($_GET['query'])) {
         include 'wmapi.php';
     }
